@@ -1,0 +1,89 @@
+/*Navbar*/
+.navbar-nav a{
+    font-size: 20px;
+}
+.navbar {
+ 
+    overflow: hidden;
+   top: 0;
+    background: #f06;
+    background: linear-gradient(45deg, #fff722, #ff26f9);
+    }
+.card {
+        background-position: center center;
+        background-size: cover;
+    }
+h5{
+    color: rgb(255, 0, 195);
+    font-weight:500 ;
+}
+
+#root{
+    /*background: rgb(238,174,202);
+background: -moz-linear-gradient(270deg, rgba(238,174,202,1) 0%, rgba(196,148,233,0.9697128851540616) 100%);
+background: -webkit-linear-gradient(270deg, rgba(238,174,202,1) 0%, rgba(196,148,233,0.9697128851540616) 100%);
+background: linear-gradient(270deg, rgba(238,174,202,1) 0%, rgba(196,148,233,0.9697128851540616) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#c494e9",GradientType=1);*/
+background: url('https://j.gifs.com/ml89GO.gif') no-repeat center center fixed;
+background-size: cover;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: max-content;
+}
+
+.carousel-item{
+    
+}
+body{
+    background-color: #020c16;
+    margin-top:20px;
+}
+.card {
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+.card .card-subtitle {
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #8898aa;
+}
+.table-product.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f8fa!important
+}
+.table-product td{
+    border-top: 0px solid #dee2e6 !important;
+    color: #728299!important;
+}
+.btn  {
+    /* margin-block-start: auto; */
+    margin-left: 10px;
+}
+.col-md-6{
+ height: 1000px;
+}
+.card-text{
+    color:rgb(221, 13, 16);
+}
+img, video, picture, canvas {
+    max-width: 100%;
+  }
+@media (max-width: 640px) { .card-text  {font-size:8px;color: #fff722;} }
+@media (min-width:960px) { .card{font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+.container{
+    
+}
+.navbar navbar-expand-lg navbar-light bg-yellow py-3 shadow-sm{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
